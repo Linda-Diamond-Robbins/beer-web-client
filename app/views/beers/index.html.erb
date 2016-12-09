@@ -1,0 +1,7 @@
+<h1>All Beers</h1>
+<% @beers.each do |beer| %>
+,<p>Beer Name: <%= beer["name"] %> </p>
+<p>Beer Style: <%= beer["style"] %> </p>
+<p>Beer Alcohol Content: <%= beer["alcohol"] %> </p>
+<p>Beer ibu Content: <%= beer["ibu"] %> </p>
+<% end %>
